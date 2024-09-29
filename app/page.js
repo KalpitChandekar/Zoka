@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero"
+import KnowUs from "@/components/KnowUs"
 import Navbar from "@/components/Navbar"
 
 const page = () => {
@@ -6,6 +7,7 @@ const page = () => {
    <div>
     <Navbar />
     <Hero />
+    <KnowUs />
    </div>
   )
 }
