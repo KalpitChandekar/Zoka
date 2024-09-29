@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero"
 import KnowUs from "@/components/KnowUs"
 import Navbar from "@/components/Navbar"
+import WhyChooseUs from "@/components/WhyChooseUs"
 
 const page = () => {
   return (
@@ -8,6 +9,7 @@ const page = () => {
     <Navbar />
     <Hero />
     <KnowUs />
+    <WhyChooseUs />
    </div>
   )
 }
