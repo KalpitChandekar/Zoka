@@ -13,11 +13,11 @@ const KnowUs = () => {
           className="w-[28rem]"
         />
       </div>
-      <div className="">
+      <div className="max-w-sm mx-auto">
         <h2 className="text-secondary font-semibold">GET TO KNOW US</h2>
         <h1 className="text-5xl font-bold my-4">Why we make it happens</h1>
         <p className="mb-10">
-          Your ceremony & reception venues, your vision, your <br /> dress, your
+          Your ceremony & reception venues, your vision, your  dress, your
           colors and anything else you would like.
         </p>
         <Button />
