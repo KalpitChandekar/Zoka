@@ -1,4 +1,5 @@
 import FloralDesign from "@/components/FloralDesign"
+import GetStarted from "@/components/GetStarted"
 import Hero from "@/components/Hero"
 import KnowUs from "@/components/KnowUs"
 import Navbar from "@/components/Navbar"
@@ -16,6 +17,7 @@ const page = () => {
     <Project />
     <FloralDesign />
     <Works />
+    <GetStarted />
    </div>
   )
 }
