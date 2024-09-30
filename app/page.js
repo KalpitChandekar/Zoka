@@ -4,6 +4,7 @@ import KnowUs from "@/components/KnowUs"
 import Navbar from "@/components/Navbar"
 import Project from "@/components/Projects"
 import WhyChooseUs from "@/components/WhyChooseUs"
+import Works from "@/components/Works"
 
 const page = () => {
   return (
@@ -14,6 +15,7 @@ const page = () => {
     <WhyChooseUs />
     <Project />
     <FloralDesign />
+    <Works />
    </div>
   )
 }
