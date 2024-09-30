@@ -1,4 +1,5 @@
 import FloralDesign from "@/components/FloralDesign"
+import Footer from "@/components/Footer"
 import GetStarted from "@/components/GetStarted"
 import Hero from "@/components/Hero"
 import KnowUs from "@/components/KnowUs"
@@ -18,6 +19,7 @@ const page = () => {
     <FloralDesign />
     <Works />
     <GetStarted />
+    <Footer />
    </div>
   )
 }
