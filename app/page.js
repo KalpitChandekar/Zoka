@@ -1,3 +1,4 @@
+import FloralDesign from "@/components/FloralDesign"
 import Hero from "@/components/Hero"
 import KnowUs from "@/components/KnowUs"
 import Navbar from "@/components/Navbar"
@@ -12,6 +13,7 @@ const page = () => {
     <KnowUs />
     <WhyChooseUs />
     <Project />
+    <FloralDesign />
    </div>
   )
 }
