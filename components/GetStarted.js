@@ -3,7 +3,7 @@ import WhiteButton from "./WhiteButton";
 
 const GetStarted = () => {
   return (
-    <div className="max-w-5xl rounded-3xl bg-secondary mx-auto my-40 py-20 px-8 relative">
+    <div className="max-w-5xl rounded-[3rem] bg-[#431898] mx-auto mt-40 mb-20 p-20 relative">
       <div className="text-white max-w-lg mr-auto">
         <h1 className="text-5xl font fold">Get Started With Us</h1>
         <p className="my-6">
@@ -12,13 +12,13 @@ const GetStarted = () => {
         </p>
         <WhiteButton />
       </div>
-      <div className="absolute -top-14 -right-16">
+      <div className="absolute -top-10 -right-12">
         <Image
           src="/get-started.png"
           alt="get-started"
           width={568}
           height={568}
-          className="w-96"
+          className="w-80"
         />
       </div>
     </div>

@@ -63,7 +63,7 @@ const FloralDesign = () => {
           alt="planning"
           className="w-60 mr-10"
         />
-        <h1 className="font-bold">Next </h1>
+        <h1 className="font-bold cursor-pointer">Next </h1>
         <ChevronRight size={16} />
       </div>
     </div>
