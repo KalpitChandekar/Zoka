@@ -26,7 +26,7 @@ const Project = () => {
         </div>
       </div>
       <div className="bg-[#F6F5FB] w-full absolute py-10 bottom-0 -z-10">
-        <div className="flex justify-end gap-10 text-center pr-64">
+        <div className="flex justify-end gap-10 text-center max-w-5xl pr-4">
           <div>
             <h1 className="text-5xl font-bold">58+</h1>
             <h2 className="text-primary">Cute Customer</h2>
