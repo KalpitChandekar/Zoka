@@ -1,10 +1,9 @@
 import Image from "next/image";
-import Button from "./Button";
 
 const Project = () => {
   return (
     <div className="max-w-7xl mx-auto mb-20 relative">
-      <div className="flex mt-44 max-w-6xl mr-auto gap-20">
+      <div className="md:flex mt-44 md:max-w-6xl mr-auto gap-20">
         <div className="">
           <Image
             src="/project.png"
@@ -14,7 +13,7 @@ const Project = () => {
             className="w-[28rem]"
           />
         </div>
-        <div className="max-w-md mx-auto">
+        <div className="max-w-md mx-auto md:px-0 px-2">
           <h1 className="text-5xl font-bold my-4">
             Experiments and personal projects.
           </h1>
@@ -25,8 +24,8 @@ const Project = () => {
           </p>
         </div>
       </div>
-      <div className="bg-[#F6F5FB] w-full absolute py-10 bottom-0 -z-10">
-        <div className="flex justify-end gap-10 text-center max-w-5xl pr-4">
+      <div className="bg-[#F6F5FB] w-full md:absolute py-10 bottom-0 -z-10 mt-4 md:mt-0">
+        <div className="flex justify-center md:justify-end gap-10 text-center max-w-5xl">
           <div>
             <h1 className="text-5xl font-bold">58+</h1>
             <h2 className="text-primary">Cute Customer</h2>

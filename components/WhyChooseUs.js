@@ -30,8 +30,8 @@ const Feature = ({ Icon, title, description }) => (
 
 const WhyChooseUs = () => (
   <div className="max-w-6xl mx-auto text-center my-40">
-    <h1 className="text-4xl mb-16 font-semibold">Why Choose Us</h1>
-    <div className="grid grid-cols-3 gap-8">
+    <h1 className="text-4xl mb-16 font-semibold md:px-0 px-2">Why Choose Us</h1>
+    <div className="grid md:grid-cols-3 gap-8">
       {features.map(({ icon, title, description }) => (
         <Feature
           key={title}

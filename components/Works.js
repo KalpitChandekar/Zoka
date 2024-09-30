@@ -34,7 +34,7 @@ const Work = ({ src }) => {
 };
 const Works = () => {
   return (
-    <div className="max-w-6xl mx-auto my-40">
+    <div className="max-w-6xl mx-auto my-40 md:px-0 px-2">
       <h1 className="text-5xl font-bold mb-4">Our Awesome Works</h1>
       <p className="mb-10">See what we shooted</p>
       <div className="grid grid-cols-3">

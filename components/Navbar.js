@@ -1,11 +1,10 @@
 import { Play } from "lucide-react";
-import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center max-w-6xl mx-auto my-6">
+    <div className="flex justify-between items-center max-w-6xl mx-auto my-6 md:px-0 px-2">
       <a href="/" className="text-3xl font-semibold tracking-tighter">ZOKA</a>
-      <div className="flex gap-8 font-semibold">
+      <div className="md:flex gap-8 hidden font-semibold">
         <a href="/">Home</a>
         <a href="/" className="text-primary">
           Pages
